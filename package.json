@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Starter three-tier backend (Node.js/Express) for the Table Reservation app — CN6035 labs.",
   "main": "index.js",
-"scripts": {
-  "start": "node server.js",
-  "dev": "node server.js",
-  "test": "echo \"Error: no test specified\" && exit 1"
-},
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/LazarosVoulistiotis/my-first-api.git"
@@ -21,9 +21,7 @@
   },
   "homepage": "https://github.com/LazarosVoulistiotis/my-first-api#readme",
   "dependencies": {
+    "body-parser": "^2.2.2",
     "express": "^5.2.1"
   }
 }
-
-
-
