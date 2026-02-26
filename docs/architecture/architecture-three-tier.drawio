@@ -1,0 +1,60 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.5.4">
+  <diagram name="Page-1" id="DmJOqIuPGXrros176u-N">
+    <mxGraphModel dx="427" dy="439" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nygtjUo_lZz2fRqLiwcy-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Frontend (React Native)" vertex="1">
+          <mxGeometry height="150" width="120" x="10" y="175" as="geometry" />
+        </mxCell>
+        <mxCell id="nygtjUo_lZz2fRqLiwcy-8" edge="1" parent="1" source="nygtjUo_lZz2fRqLiwcy-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" target="nygtjUo_lZz2fRqLiwcy-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nygtjUo_lZz2fRqLiwcy-16" connectable="0" parent="nygtjUo_lZz2fRqLiwcy-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="JSON + HTTP STATUS" vertex="1">
+          <mxGeometry relative="1" x="0.1194" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nygtjUo_lZz2fRqLiwcy-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Backend (Node.js + Express)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;pre class=&quot;overflow-visible! px-0!&quot; data-start=&quot;1688&quot; data-end=&quot;1810&quot;&gt;&lt;div class=&quot;relative w-full my-4&quot;&gt;&lt;div class=&quot;&quot;&gt;&lt;div class=&quot;relative&quot;&gt;&lt;div class=&quot;h-full min-h-0 min-w-0&quot;&gt;&lt;div class=&quot;h-full min-h-0 min-w-0&quot;&gt;&lt;div class=&quot;border corner-superellipse/1.1 border-token-border-light bg-token-bg-elevated-secondary rounded-3xl&quot;&gt;&lt;div class=&quot;corner-superellipse/1.1 rounded-3xl bg-token-bg-elevated-secondary&quot;&gt;&lt;div class=&quot;relative z-0 flex max-w-full&quot;&gt;&lt;div id=&quot;code-block-viewer&quot; dir=&quot;ltr&quot; class=&quot;q9tKkq_viewer cm-editor z-10 light:cm-light dark:cm-light flex h-full w-full flex-col items-stretch ͼs ͼ16&quot;&gt;&lt;div class=&quot;cm-scroller&quot;&gt;&lt;div class=&quot;cm-content q9tKkq_readonly&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-family: Helvetica; white-space: normal;&quot;&gt;Endpoints:&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;li data-start=&quot;541&quot; data-end=&quot;574&quot;&gt;&lt;p data-start=&quot;543&quot; data-end=&quot;574&quot;&gt;&lt;code data-start=&quot;543&quot; data-end=&quot;565&quot;&gt;POST /users/register&lt;/code&gt; (public)&lt;/p&gt;&lt;/li&gt;&lt;li data-start=&quot;580&quot; data-end=&quot;610&quot;&gt;&lt;p data-start=&quot;582&quot; data-end=&quot;610&quot;&gt;&lt;code data-start=&quot;582&quot; data-end=&quot;601&quot;&gt;POST /users/login&lt;/code&gt; (public)&lt;/p&gt;&lt;/li&gt;&lt;li data-start=&quot;580&quot; data-end=&quot;610&quot;&gt;&lt;p data-start=&quot;582&quot; data-end=&quot;610&quot;&gt;&lt;code data-start=&quot;618&quot; data-end=&quot;636&quot;&gt;GET /restaurants&lt;/code&gt; &lt;em data-start=&quot;637&quot; data-end=&quot;682&quot;&gt;(public)&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;&lt;li data-start=&quot;510&quot; data-end=&quot;724&quot;&gt;&lt;ul data-start=&quot;541&quot; data-end=&quot;724&quot;&gt;&lt;li data-start=&quot;688&quot; data-end=&quot;724&quot;&gt;&lt;p data-start=&quot;690&quot; data-end=&quot;724&quot;&gt;&lt;code data-start=&quot;690&quot; data-end=&quot;710&quot;&gt;POST /reservations&lt;/code&gt; &lt;em data-start=&quot;711&quot; data-end=&quot;724&quot;&gt;(protected)&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/pre&gt;&lt;p data-start=&quot;1812&quot; data-end=&quot;1849&quot;&gt;&lt;/p&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="180" width="260" x="320" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="nygtjUo_lZz2fRqLiwcy-23" edge="1" parent="1" source="nygtjUo_lZz2fRqLiwcy-4" style="edgeStyle=orthogonalEdgeStyle;shape=wire;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;dashed=1;" target="nygtjUo_lZz2fRqLiwcy-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nygtjUo_lZz2fRqLiwcy-4" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Database (MariaDB)" vertex="1">
+          <mxGeometry height="160" width="110" x="710" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="nygtjUo_lZz2fRqLiwcy-10" edge="1" parent="1" source="nygtjUo_lZz2fRqLiwcy-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=27.5;entryPerimeter=0;" target="nygtjUo_lZz2fRqLiwcy-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nygtjUo_lZz2fRqLiwcy-15" connectable="0" parent="nygtjUo_lZz2fRqLiwcy-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="SQL (3306)" vertex="1">
+          <mxGeometry relative="1" x="-0.1307" y="-4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nygtjUo_lZz2fRqLiwcy-25" edge="1" parent="1" source="nygtjUo_lZz2fRqLiwcy-18" style="edgeStyle=orthogonalEdgeStyle;shape=wire;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" target="nygtjUo_lZz2fRqLiwcy-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nygtjUo_lZz2fRqLiwcy-18" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="JWT Auth" vertex="1">
+          <mxGeometry height="80" width="120" x="390" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nygtjUo_lZz2fRqLiwcy-19" edge="1" parent="1" source="nygtjUo_lZz2fRqLiwcy-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.383;entryDx=0;entryDy=0;entryPerimeter=0;" target="nygtjUo_lZz2fRqLiwcy-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nygtjUo_lZz2fRqLiwcy-20" connectable="0" parent="nygtjUo_lZz2fRqLiwcy-19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="HTTPS/JSON" vertex="1">
+          <mxGeometry relative="1" x="-0.0358" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nygtjUo_lZz2fRqLiwcy-21" edge="1" parent="1" source="nygtjUo_lZz2fRqLiwcy-1" style="edgeStyle=orthogonalEdgeStyle;shape=wire;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.163;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" target="nygtjUo_lZz2fRqLiwcy-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nygtjUo_lZz2fRqLiwcy-22" connectable="0" parent="nygtjUo_lZz2fRqLiwcy-21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];dashed=1;" value="&lt;p data-start=&quot;2000&quot; data-end=&quot;2096&quot;&gt;&lt;code data-start=&quot;2065&quot; data-end=&quot;2096&quot;&gt;Authorization: Bearer &amp;lt;token&amp;gt;&lt;/code&gt;&lt;/p&gt;&lt;h2 data-start=&quot;2098&quot; data-end=&quot;2140&quot;&gt;&lt;/h2&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0264" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
