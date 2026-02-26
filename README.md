@@ -1,2 +1,4 @@
 # my-first-api
 Starter three-tier backend (Node.js/Express) for the Table Reservation app — CN6035 labs.
+## Architecture (Three-tier)
+![Three-tier architecture](docs/architecture/architecture-three-tier.png)
